@@ -1,0 +1,52 @@
+
+.Container{
+    position: absolute;
+    top:70%;
+    left:10%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#Filter-option{
+    padding: 10px;
+    border: none;
+    background:none;
+    cursor: pointer;
+    font-size: 13px;
+  
+    
+}
+
+.filters-container{
+    position: absolute;
+    top:75%;
+    left:5%;
+    cursor:pointer;
+    display: block;
+    margin-bottom:10px ;
+    
+   
+
+}
+.dropdown2 button{
+    background: none;
+    border: none;
+    padding: 20px;
+    font-weight: bold;
+
+}
+.dropdown2 label{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.dropdown-content {
+    display: block;
+    position: relative;
+   
+   
+    margin-bottom:10px ;
+  
+    z-index: 1;
+}

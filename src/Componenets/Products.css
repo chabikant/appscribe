@@ -1,0 +1,36 @@
+
+.card {
+    flex: 1 1 calc(50% - 16px); 
+    max-width: calc(25% - 16px); 
+    background: #fff;
+   
+   
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    
+  }
+  
+  
+  
+  .card-img {
+    width: 100%;
+    height: auto; 
+   
+  }
+  
+  .card-details {
+    padding: 16px; 
+    box-sizing: border-box;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .login {
+    font-size: 0.875rem;
+    color: #555;
+  }
+  

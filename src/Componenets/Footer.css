@@ -1,0 +1,130 @@
+.footer {
+  position: absolute;
+  top:320%;
+  background-color: #000;
+  color: #fff;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 1px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-subscribe h4, .footer-contact h4, .footer-currency h4 {
+  font-size: 1.2rem;
+}
+
+.footer-subscribe h4{
+  margin-top: 10px;
+}
+.footer-contact h4 {
+  margin-top: 85px;
+}
+
+.footer-subscribe p{
+  margin-bottom: 50px;
+}
+.footer-contact p, .footer-currency p {
+  margin-bottom: 10px;
+}
+
+.subscribe input {
+  padding: 10px;
+  padding-right: 300px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.subscribe button {
+  padding: 10px 20px;
+  background-color: #000; /* Changed to black */
+  color: #fff;
+  border: 1px solid #fff; /* Added white border */
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-contact-currency {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.footer-section h4 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.footer-follow {
+  margin-top: 20px;
+}
+.footer-payment {
+  margin-top: 50px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 2px solid #fff; /* Added circular border for social icons */
+  border-radius: 50%; /* Make the border circular */
+  padding: 5px;
+}
+
+.payment-icons i {
+  font-size: 30px; /* Increased size of payment icons */
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.footer-divider {
+  margin: 20px 0;
+  border: 0;
+  height: 2px;
+  background: #fff; /* Horizontal line style */
+}
+
+.footer-copyright {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  padding-top: 0px;
+}
+
+.currency-image {
+  width: 24px; /* Adjust the size as needed */
+  margin-right: 5px;
+  vertical-align: middle;
+  border-radius: 100%;
+}
+
+.payment-image {
+  width: 10%; /* Adjust the size as needed */
+  margin-right: 10px;
+  vertical-align: middle;
+}

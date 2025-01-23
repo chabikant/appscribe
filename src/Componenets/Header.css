@@ -1,0 +1,120 @@
+*{
+    font-family: Inter, sans-serif;
+}
+
+img{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 40px;
+    left: 96px;
+    padding: 0px 0.39px 0.34px 0px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 0px;
+    gap: 24px; 
+    position: absolute;
+    top: 46px;
+    left: 1000px;
+    opacity: 1px;
+    
+}
+.icons{
+    display: flex;
+    gap: 20px;    
+}
+
+.Lang select{
+    
+    font-size: 15px;
+    border: none;
+    background: none; 
+    outline: none; 
+    font-weight: 700;
+    cursor: pointer; 
+}
+
+.Company-name{
+    
+    position: absolute;
+    width: 107px;
+    height: 44px;
+    left: 580px;
+    top: 36px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.Other-tabs{
+  
+    font-weight: 700;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    gap: 70px; 
+    cursor: pointer; 
+    width: 800px;
+    
+    
+}
+
+.Other-tabs-hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid
+    #E5E5E5;
+    margin-top: 13%; 
+   
+}
+.Content{
+    
+    
+    position: absolute;
+    left: 100px;
+    top: 90px;
+    display: flex;
+    align-items: center;
+    width: 1000px;
+  
+    
+}
+.Content  h6{
+    font-family: 'Simplon Norm';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 53px;
+    position: absolute;
+    left:180px; 
+    top: 0px;
+    color: #252020;
+
+  
+   
+}
+.Content p{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top:180px;
+    left: 200px;
+    text-align: center;
+    font-size: 20px;
+    color: #252020;
+    
+}
+
